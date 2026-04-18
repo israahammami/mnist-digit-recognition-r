@@ -1,2 +1,7 @@
-# mnist-digit-recognition-r
-Handwritten digit classification using an Artificial Neural Network (ANN) in R, achieving 98.48% accuracy on the MNIST dataset
+ MNIST Digit Recognition with Neural Networks (R)Project Overview
+ This project demonstrates the implementation of a Multilayer Perceptron (MLP) to solve the complex, high-dimensional problem of handwritten digit classification. Using the MNIST dataset, which contains 70,000 images, I developed a deep learning model in R that achieves high predictive performance through non-linear feature extraction.Technical ArchitectureThe network was designed with a three-layer structure to efficiently process raw pixel data:
+* Input Layer: 784 neurons (representing each 28x28 pixel) with [0, 1] normalization.
+* Hidden Layer: 256 neurons utilizing the ReLU activation function for rapid, non-linear learning.
+* Output Layer: 10 neurons using Softmax activation to produce probability scores for each digit class (0-9).Model Training & Performance* Optimization: The model utilized backpropagation and gradient descent to minimize the loss function over 5 epochs.
+* Results: Reached a final classification accuracy of 98.48% with a loss of 0.0529.
+* Stability: The training curves demonstrate rapid convergence and stable learning without overfitting.Key Business TakeawayFollowing the "Managerial Rules" framework, this project proves that "complexity pays" when dealing with non-linear, image-based data. This logic is directly applicable to automating document processing and improving operational efficiency in data-heavy industries.
